@@ -8,6 +8,10 @@
         {
             "type": "composer",
             "url": "https://packages.drupal.org/8"
+        },
+        {
+          "type": "vcs",
+          "url": "https://github.com/tebb/localgov_paragraphs.git"
         }
     ],
     "require": {
@@ -22,7 +26,7 @@
         "localgovdrupal/localgov_directories": "^1.0@alpha",
         "localgovdrupal/localgov_guides": "^1.0@alpha",
         "localgovdrupal/localgov_menu_link_group": "^1.0@alpha",
-        "localgovdrupal/localgov_paragraphs": "^1.0@alpha",
+        "tebb/localgov_paragraphs": "dev-fix/16-symfony-notice-duplicate-yml-key-detected",
         "localgovdrupal/localgov_services": "^1.0@alpha",
         "localgovdrupal/localgov_step_by_step": "^1.0@alpha",
         "localgovdrupal/localgov_subsites": "^1.0@alpha",
