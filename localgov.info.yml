@@ -1,7 +1,7 @@
 name: LocalGovDrupal
 type: profile
 description: 'Install a LocalGovDrupal site.'
-core_version_requirement: ^8.8 || ^9
+core_version_requirement: ^9
 
 install:
   # Core
@@ -16,7 +16,7 @@ install:
   - drupal:dblog
   - drupal:dynamic_page_cache
   - drupal:editor
-  - drupal:entity_reference
+  #- drupal:entity_reference
   - drupal:field_ui
   - drupal:file
   - drupal:help
